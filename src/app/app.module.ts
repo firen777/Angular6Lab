@@ -8,7 +8,8 @@ import { PostsComponent } from './posts/posts.component';
 import { UsersComponent } from './users/users.component';
 import { DetailsComponent } from './details/details.component';
 
-import { HttpClientModule } from '@angular/common/http'
+import { HttpClientModule } from '@angular/common/http';
+import { LoginComponent } from './login/login.component'
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { HttpClientModule } from '@angular/common/http'
     PostsComponent,
     UsersComponent,
     DetailsComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
